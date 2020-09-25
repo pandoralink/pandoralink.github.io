@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  width: 350px;
+}
+
+label {
+  font-weight: bold;  
+}
+
+div {
+  padding-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+p {
+  color: #5E2612;
+  visibility: hidden;
+  white-space:pre;
+}
