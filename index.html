@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>正交表测试用例生成器</title>
+		<script src="scripts/main.js" defer></script>
+		<link href="styles/style.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div>
+		  <label for="example">输入你的试验用例：</label>
+		  <!--<input id="example" type="text" placeholder="xxxx">-->
+			<textarea cols="50" rows="10" id="example_1"></textarea>
+    	</div>
+		<button id='yes'>确定</button>
+		<div>
+			<label for="prod">生成正交表</label>
+			<button id="doing">生成</button>
+			<textarea cols="50" rows="10" id="product"></textarea>
+			<button id="done">生成</button>
+			<!--<textarea cols="50" rows="10" id="testcase"></textarea>-->	<!--字符串显示方法-->
+			<table id="testcase" cellspacing="0" border="1px"></table>
+			</div>
+	</body>
+
+</html>
