@@ -1,0 +1,67 @@
+#testcase{
+    border:1px solid #0d0d0e;
+    /*
+    width: 200px;
+    height: 200px;*/
+}
+#one{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#two{
+    position: absolute;
+    margin-left: 500px;
+    top: 0;
+    /*height: 100%;*/
+}
+#three{
+    position: absolute;
+    margin-left: 950px;
+    top: 0;
+}
+#onetext{
+    position: relative;
+    left: 30px;
+}
+#product{
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    margin: 0;
+    outline: 0;
+    font-size:16px;
+}
+#example_1{
+	position: relative;
+    height: 250px;
+    left: 30px;
+    border-radius: 10px;
+    margin: 0;
+    outline: 0;
+    font-size:16px;
+}
+#yes,#doing,#done{
+    line-height: 32px;
+	position: relative;
+	border: none;
+	height: 34px;
+	padding: 0 18px;
+	color: #FFF;
+    background-color: #1479d7;
+	border-radius: 20px;
+	font-size: 16px;
+	cursor: pointer;
+    margin: 0;
+    outline: 0;
+}
+#yes:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
+#doing:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
+#done:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
