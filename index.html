@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>正交表测试用例生成器</title>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+		<script src="scripts/jBox.all.js"></script>
+		<link href="styles/jBox.all.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.8/xlsx.core.min.js"></script>
+		<link href="styles/style.css" rel="stylesheet">
+		<script src="scripts/mainShow.js" defer></script>
+		
+	</head>
+
+	<body>
+		<button class="instructions-button">使用须知</button>
+		<aside class="test">
+			<ul class="list-group">
+			<li class="list-group-item">不兼容Safari浏览器</li>
+			<li class="list-group-item">匹配结果有标准正交标和混合正交表</li>
+			<li class="list-group-item">对于混合正交表，需要用户自行判断相应适配实验用例</li>
+			<li>请规范你的输入，避免不必要的错误，不要混用分隔符</li>
+			<li>因素数与水平数可用":"、";"、""|"、"\"、"；"、"：" 分隔</li>
+			<li>水平数之间可用","、"，"、"、"分隔</li>
+			<li class="list-group-item">对于混合正交表的用例提取，其中列表头为“无”的视为无效列，提取用例时可看做空，对于列表头为有效输入时，该列中为“无”的行视为无效例</li>
+			<li class="list-group-item">若有错误,十分抱歉</li>
+			</ul>
+		</aside>
+		<div id="one">
+			<div id="onetext">
+			<label for="example">输入你的试验用例：</label>
+			<button id='yes'>确定</button>
+			<button id="cleartext">重置/清空</button>
+			</div>
+			<textarea cols="50" rows="10" id="example_1"></textarea>
+		</div>
+		<div id="two">
+				<div>
+				<label for="prod">生成正交表：</label>
+				<button id="doing">生成</button>
+				</div>
+				<textarea cols="50" rows="10" id="product"></textarea>
+				<!--<textarea cols="50" rows="10" id="testcase"></textarea>-->	<!--字符串显示方法-->
+		</div>
+		<div id="three">
+				<div>
+				<label for="prod">生成试验用例：</label>
+				<button id="done">生成</button>
+				<button class="download">下载csv</button>
+				</div>
+				<table id="testcase" class="table table-bordered" cellspacing="0" border="1px"></table>
+		</div>
+	</body>
+
+</html>
