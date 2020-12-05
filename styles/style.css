@@ -1,0 +1,121 @@
+#testcase{
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+/*不要乱用绝对定位,不利于pc和移动端的转换*/
+
+#one{
+    float: left;
+    clear: left;
+    top: 0;
+    margin: 1em;
+}
+#two{
+    float: left;
+    top: 0;
+    margin: 1em;
+}
+#three{
+    float: left;
+    top: 0;
+    margin: 1em;
+}
+
+#onetext{
+    left: 30px;
+}
+#product{
+    float: left;
+    height: 250px;
+    border-radius: 10px;
+    outline: 0;
+    margin-top: 10px;
+    font-size:16px;
+}
+#example_1{
+    float: left;
+    height: 250px;
+    left: 80px;
+    border-radius: 10px;
+    margin-top: 10px;
+    outline: 0;
+    font-size:16px;
+}
+#cleartext,#yes,#doing,#done{
+    line-height: 32px;
+	position: relative;
+	border: none;
+	height: 34px;
+	padding: 0 18px;
+	color: #FFF;
+    background-color: #1479d7;
+	border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+	cursor: pointer;
+    margin: 0;
+    outline: 0;
+}
+.download{
+    line-height: 32px;
+	position: relative;
+	border: none;
+	height: 34px;
+	padding: 0 18px;
+	color: #FFF;
+    background-color: #00CC66;
+	border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+	cursor: pointer;
+    margin-left: 2em;
+    outline: 0;
+}
+#cleartext{
+    margin-left: 2em;
+}
+#cleartext:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
+#yes:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
+#doing:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
+#done:active{
+    box-shadow: 0px 0px 50px rgb(16, 150, 228) inset;   /*insert 是让产生的虚影(或者说遮罩)贴合在控件当中*/
+}
+
+.instructions-button{
+    float: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    top: 0em;
+	border: none;
+	height: 34px;
+	padding: 0 18px;
+    color: #FFF;
+    text-align: center;
+    background-color: #1479d7;
+	border-radius: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+	cursor: pointer;
+    outline: 0;
+}
+
+.test{
+    clear: left;
+    margin-left: 1em;
+    width: 32em;
+    height: 15em;
+    display: none;
+    border-radius: 20px;
+    border:0.01em solid #0d0d0e;
+}
+
+li{
+    font-size: 1em;
+}
